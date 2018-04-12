@@ -1,12 +1,13 @@
 body {
     background-image: url("/assets/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 70px;
     font-family: "Times New Roman", Times, serif;
 }
 
 .jumbotron {
     position: relative;
-    background: rgb(227, 225, 233);
     margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -15,7 +16,7 @@ body {
 
 .panel {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(201, 203, 238);
+    background-color: lavenderblush;
 }
 
 .deleteNote {
@@ -26,7 +27,14 @@ body {
     display: inline-block;
     width: 90%
 }
-
-#scrape {
+#scrape, #saved {
     margin: 8px 0px;
+    margin-right: 5px;
+}
+#saved > a{
+    color:white;
+}
+#homeTitle{
+    background-color: deepskyblue;
+    color: white;
 }
